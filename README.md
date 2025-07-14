@@ -14,6 +14,16 @@ Intercept Meta Business Suite traffic on Android by bypassing SSL pinning throug
 
 ---
 
+## 🎥 Tutorial Preview
+
+<p align="center">
+  <a href="https://youtube.com/shorts/-Tm5d5DqtWI?feature=shared" target="_blank">
+    <img src="https://img.youtube.com/vi/-Tm5d5DqtWI/maxresdefault.jpg" alt="Tutorial Video" width="700" />
+  </a>
+</p>
+
+---
+
 ## 📦 Requirements
 1. ✅ Rooted Android Phone  
 2. 🔌 ProxyPin or Reqable App
