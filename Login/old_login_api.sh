@@ -1,0 +1,16 @@
+curl -X POST 'https://b-api.facebook.com/method/auth.login' \
+  -H 'X-FB-Friendly-Name: authenticate' \
+  -H 'X-FB-Connection-Quality: GOOD' \
+  -H 'X-FB-SIM-HNI: 47004' \
+  -H 'X-FB-Net-HNI: 47004' \
+  -H 'User-Agent: [FBAN/PAAA;FBAV/262.0.0.53.107;FBDM/{density=2.7375,width=1080,height=2292};FBLC/en_US;FBBV/215367965;FB_FW/2;FBSN/Android;FBCR/Teletalk;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CK7n;FBSV/14;FBCA/arm64-v8a:null;]' \
+  -H 'Content-Encoding: gzip' \
+  -H 'Host: b-api.facebook.com' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'X-Tigon-Is-Retry: False' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'X-FB-HTTP-Engine: Liger' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 773'  \
+   --data 'adid=537b00a5-a059-4b84-bc15-f5e6527e67cf&format=json&device_id=b5d5663c-bcf0-4669-b6e1-bf13e74445e4&email=By_SHAJON-404&password=%23PWD_ENC%3A1%3A1753517529%3AASlReCUmrqGtG8TEF4sAAT1Xw68oAeVRhqjj1J3T%2Fe4uOCFFuGlzsYvNk7IWBxgBj%2FzstDsa6Z0DIEn%2BejjMGipfJK0nhaQLm1KcymM8CRqSnQPz0TfTOJaHlfARH3n9hCJNUJB6Uwzi0CnL5VSd9t%2BTjZJjplHa9He6q1P9LD7nAnDYynZgrw37FtJKLywpTZNvjM5bFFSZTNKGQXRDN5VMTr9HlHDUUnJDwULPKbno2wLb9l0xtgaTF7hvMZ3Y5%2Bjl0QoNDl4RD%2FPpMzfI8Hjy6V1ZsPpQO9KMd4RaFzk9x580VKm%2FcTCYNoPkUS740mlUr5FqOxmQIUfpdhAAgJShPhoIxXvi7KBIsrdPNGrWB4oZ3t1n1PTDSUCvpvfTKCKOzF%2FiIbNyubY%3D&generate_analytics_claim=1&community_id=&cpl=true&credentials_type=password&generate_session_cookies=1&generate_machine_id=1&jazoest=22426&meta_inf_fbmeta=NO_FILE&advertiser_id=537b00a5-a059-4b84-bc15-f5e6527e67cf&currently_logged_in_userid=0&locale=en_US&client_country_code=BD&method=auth.login&fb_api_req_friendly_name=authenticate&fb_api_caller_class=com.facebook.auth.login.AuthOperations%24PasswordAuthOperation&api_key=121876164619130&sig=05e75ba4b84fd7d10cf3acc7581d1d1e' \
+  --compressed
