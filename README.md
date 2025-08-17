@@ -39,7 +39,7 @@ Intercept Meta Business Suite traffic on Android by bypassing SSL pinning throug
 
 ---
 
-## 🔐 Get Patched `libstartup.so` [PAID]
+## ☎️ Need me as an Assistant? Contact : 
 
 <p align="left">
   <a href="https://t.me/DarknessKing999" target="_blank">
