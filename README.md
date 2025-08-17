@@ -2,13 +2,13 @@
 Intercept Meta Business Suite traffic on Android by bypassing SSL pinning through replacement of modified native libraries, using tools like ProxyPin or Reqable.
 
 ## ✅ Latest Tested App Version
-- Meta Business Suite App version: **512.0.0.40.108**
+- Meta Business Suite App version: **517.0.0.43.109**
 - Architecture: **arm64/aarch64**
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/SHAJON-404/Meta-Business-Suit-SSL-Bypass/refs/heads/main/IMAGE/headers.jpg" alt="headers" width="450"></td>
     <td><img src="https://raw.githubusercontent.com/SHAJON-404/Meta-Business-Suit-SSL-Bypass/refs/heads/main/IMAGE/traffic_log.jpg" alt="headers" width="450"></td>
+    <td><img src="https://raw.githubusercontent.com/SHAJON-404/Meta-Business-Suit-SSL-Bypass/refs/heads/main/IMAGE/v517.0.0.43.109.jpg" alt="headers" width="450"></td>
   </tr>
 </table>
 
