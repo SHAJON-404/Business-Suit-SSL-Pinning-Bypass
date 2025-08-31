@@ -1,9 +1,9 @@
-# 📡 Meta-Business-Suit-SSL-Bypass  
-Intercept Meta Business Suite traffic on Android by bypassing SSL pinning through replacement of modified native libraries, using tools like ProxyPin or Reqable.
+# 🔐 Busniess-Suit-SSL-Pinning-Bypass
+📡 Intercept Busniess-Suit network traffic on Android device/emulator
 
-## ✅ Latest Tested App Version
-- Meta Business Suite App version: **517.0.0.43.109**
-- Architecture: **arm64/aarch64**
+## 📌 Latest Tested App Version
+- 🎯 Busniess-Suit App version: **520.0.0.32.109**
+- 🏗️ Architecture: **arm64-v8a**, **armeabi-v7a**, **x86**, **x86_64**
 
 <table>
   <tr>
@@ -12,7 +12,23 @@ Intercept Meta Business Suite traffic on Android by bypassing SSL pinning throug
   </tr>
 </table>
 
----
+## 📱 Requirements for Android Device
+1. 🔓 Rooted Android Phone  
+2. 🛠️ ProxyPin or Reqable App  
+
+## 💻 Requirements for Emulator
+1. 🖥️ Windows PC with Reqable installed  
+2. 📲 Android emulator (Nox/LDPlayer)  
+3. ⚙️ Root access on emulator  
+
+## 🔧 Process (Android Device)
+1. 🔄 Replace patched `libcoldstart.so` with `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`  
+2. 📊 Run ProxyPin or Reqable app to capture traffic  
+
+## ⚡ Process (Windows + Emulator)
+1. 🔌 Install Reqable on Windows and configure proxy settings  
+2. 🔄 Replace patched `libcoldstart.so` in emulator at `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`  
+3. 🚀 Start traffic interception in Reqable  
 
 ## 🎥 Tutorial Preview
 
@@ -22,43 +38,9 @@ Intercept Meta Business Suite traffic on Android by bypassing SSL pinning throug
   </a>
 </p>
 
----
-
-## 📦 Requirements
-1. ✅ Rooted Android Phone  
-2. 🔌 ProxyPin or Reqable App
-
----
-
-## ⚙️ Process
-1. Replace the patched `libstartup.so` file with:
-   ```
-   /data/data/com.facebook.pages.app/lib-compressed/libstartup.so
-   ```
-2. Run **ProxyPin** or **Reqable** to capture decrypted HTTPS traffic from Meta Business Suite.
-
----
-
-## ☎️ Need me as an Assistant? Contact : 
-
+## 🆘 Need Bypassed libcoldstart.so? Contact Me
 <p align="left">
   <a href="https://t.me/DarknessKing999" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=202124&color=2CA5E0&logoWidth=20" alt="Telegram" />
+    <img src="https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20" alt="Telegram" style="border-radius: 8px;"/>
   </a>
 </p>
-
----
-
-## ⚠️ Disclaimer
-
-This project is for **educational and research purposes only**.  
-We do **not condone** any misuse, unauthorized data access, or violation of platform terms.
-
-All copyrights, trademarks, and usage rights belong to **Meta Platforms, Inc**.
-
----
-
-## © License  
-**SHAJON PROPRIETARY LICENSE v1.0**  
-All rights reserved © 2025 SHAJON  
-Unauthorized usage or redistribution is strictly prohibited.
