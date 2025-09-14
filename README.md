@@ -2,7 +2,7 @@
 📡 Intercept Busniess-Suit network traffic on Android device/emulator
 
 ## 📌 Latest Tested App Version
-- 🎯 Busniess-Suit App version: **520.0.0.32.109**
+- 🎯 Busniess-Suit App version: **521.0.0.62.110**
 - 🏗️ Architecture: **arm64-v8a**, **armeabi-v7a**, **x86**, **x86_64**
 
 <table>
@@ -22,12 +22,12 @@
 3. ⚙️ Root access on emulator  
 
 ## 🔧 Process (Android Device)
-1. 🔄 Replace patched `libcoldstart.so` with `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`  
+1. 🔄 Replace patched `libcoldstart.so` with `/data/data/com.facebook.pages.app/lib-compressed/libcoldstart.so`  
 2. 📊 Run ProxyPin or Reqable app to capture traffic  
 
 ## ⚡ Process (Windows + Emulator)
 1. 🔌 Install Reqable on Windows and configure proxy settings  
-2. 🔄 Replace patched `libcoldstart.so` in emulator at `/data/data/com.facebook.orca/lib-compressed/libcoldstart.so`  
+2. 🔄 Replace patched `libcoldstart.so` in emulator at `/data/data/com.facebook.pages.app/lib-compressed/libcoldstart.so`  
 3. 🚀 Start traffic interception in Reqable  
 
 ## 🎥 Tutorial Preview
