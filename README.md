@@ -22,12 +22,12 @@
 3. ⚙️ Root access on emulator  
 
 ## 🔧 Process (Android Device)
-1. 🔄 Replace patched `libcoldstart.so` with `/data/data/com.facebook.pages.app/lib-compressed/libcoldstart.so`  
+1. 🔄 Replace patched `libcoldstart.so` with `/data/data/com.facebook.pages.app/lib-compressed/libstartup.so`  
 2. 📊 Run ProxyPin or Reqable app to capture traffic  
 
 ## ⚡ Process (Windows + Emulator)
 1. 🔌 Install Reqable on Windows and configure proxy settings  
-2. 🔄 Replace patched `libcoldstart.so` in emulator at `/data/data/com.facebook.pages.app/lib-compressed/libcoldstart.so`  
+2. 🔄 Replace patched `libcoldstart.so` in emulator at `/data/data/com.facebook.pages.app/lib-compressed/libstartup.so`  
 3. 🚀 Start traffic interception in Reqable  
 
 ## 🎥 Tutorial Preview
